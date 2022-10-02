@@ -1,0 +1,8 @@
+<div class="card px-2 pb-2 mb-3">
+  <div class="d-flex">
+    <h3>{{product.name}}</h3>
+    <h5 class="ms-auto">{{product.price | currency}}</h5>
+  </div>
+  <img [src]="product.imgUrl" [alt]="product.name" class="rounded float-left">
+  <a [routerLink]="" class="w-100 btn btn-dark my-2 py-3">Comprar</a>
+</div>

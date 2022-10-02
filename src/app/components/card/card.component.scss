@@ -1,0 +1,26 @@
+img{
+  height: 260px;
+  object-fit: cover;
+}
+
+img:hover{
+  transform: scale(1.1);
+
+}
+
+.card{
+  background-color: inherit;
+  border: none;
+}
+
+h3,h5{
+  font-weight: bolder;
+  font-family: "Exo 2";
+}
+
+h3{
+
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
